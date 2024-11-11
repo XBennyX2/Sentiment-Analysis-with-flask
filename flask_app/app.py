@@ -4,7 +4,7 @@ import joblib
 app = Flask(__name__)
 
 
-# Load the ML model and vectorizer
+# we are loafing the models we got from running ML services
 model = joblib.load('model/sentiment_model.joblib')
 vectorizer = joblib.load('model/vectorizer.joblib')
 
