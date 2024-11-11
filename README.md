@@ -5,3 +5,6 @@ The sentiment analysis is trained with a little data and here are the datas for 
     "Terrible experience", --> negative
     "Very disappointed", --> negative
     "Waste of money"   ----> negative
+
+
+Run Docker compose up --build
